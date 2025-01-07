@@ -1,0 +1,77 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "1.0.0"
+    },
+
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "Matteo <b>Marsala</b>",
+        "subtitle": "Software Engineer",
+        "logoOffset": {
+            "right": 12,
+            "top": -1,
+            "bottom": -1
+        }
+    },
+
+    "templateSettings": {
+        "animatedBackground": true,
+        "animatedCursorEnabled": true,
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": true
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-uk.png"
+        },
+        {
+            "name": "Italiano",
+            "id": "it",
+            "flagUrl": "images/flags/it.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Theme"},
+                "it": {"name": "Tema Scuro"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-snowflake",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Theme"},
+                "it": {"name": "Tema Chiaro"}
+            }
+        },
+        {
+            "id": "midnight",
+            "icon": "fa-solid fa-meteor",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Midnight Theme"},
+                "it": {"name": "Tema Notturno"}
+            }
+        }
+    ],
+
+    "imagesToCache": [
+        "images/content/pfp-dark.png",
+        "images/content/pfp-light.png",
+        "images/content/pfp-midnight.png"
+    ]
+}

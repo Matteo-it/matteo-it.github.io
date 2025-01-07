@@ -1,0 +1,104 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "it": {
+                "title_short": "Esperienza",
+                "title_short_nav": "Esperienza",
+                "title_long_prefix": "Riepilogo della mia",
+                "title_long": "Esperienza {{Lavorativa}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bgLight":"#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2023, "month": 7},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Software}} Engineer",
+                            "province": "Turin",
+                            "country": "Italy",
+                            "institution": "Arduino",
+                            "text": "As a Software Engineer at Arduino, I'm responsible for [[developing and maintaining]] the Arduino applications, internal and external. My role involved:",
+                            "list": [
+                                "Developing new features per le principali applicazioni di Arduino, quali la Documentazione, il Digital Store e Cloud Home",
+                                "Collaborating with designers and product managers to create user-friendly interfaces.",
+                                "Helping new developers understand and improve some of the 21 projects managed by our team."
+                            ],
+                            "tags": ["React", "Javascript", "Typescript", "DatoCMS", "Algolia"]
+                        },
+                        "it": {
+                            "title": "{{Software}} Engineer",
+                            "province": "Torino",
+                            "country": "Italia",
+                            "institution": "Arduino",
+                            "text": "Come Software Engineer in Arduino, sono responsabile dello [[sviluppo e della manutenzione]] delle applicazioni Arduino, sia interne che esterne. Il mio ruolo ha previsto:",
+                            "list": [
+                                "Sviluppo di nuove funzionalità per le principali applicazioni di Arduino, come la Documentazione, il Digital Store e Cloud Home",
+                                "Collaborazione con designer e product manager per creare interfacce intuitive.",
+                                "Supporto ai nuovi sviluppatori per comprendere e migliorare alcuni dei 21 progetti gestiti dal nostro team."
+                            ],
+                            "tags": ["React", "Javascript", "Typescript", "DatoCMS", "Algolia"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bgLight": "#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2020, "month": 3},
+                    "dateEnd": {"year": 2023, "month": 7},
+                    "locales": {
+                        "en": {
+                            "title": "{{Front-end}} Developer",
+                            "province": "Turin",
+                            "country": "Italy",
+                            "institution": "Top Solution",
+                            "text": "At Top Solution, I serve as a Front-end Developer, leading efforts to [[create web applications for external clients]] (like Collins Aereospace, Reply, Alpitour and Arduino). My main contributions include:",
+                            "list": [
+                                "Developing new web applications to meet client needs and drive their business towards industrialization.",
+                                "Creating internal applications to improve company process efficiency.",
+                                "Building web applications while working directly as an external consultant.",
+                                "Working closely with backend teams to integrate APIs efficiently."
+                            ],
+                            "tags": ["React", "Javascript", "Typescript", "VueJS", "Astro", "Web Components"]
+                        },
+                        "it": {
+                            "title": "{{Front-end}} Developer",
+                            "province": "Torino",
+                            "country": "Italia",
+                            "institution": "Top Solution",
+                            "text": "In Top Solution ricopro il ruolo di Front-end Developer, guidando gli sforzi per [[creare applicazioni web per clienti esterni]] (come Collins Aereospace, Reply, Alpitour e Arduino). I miei principali contributi includono:",
+                            "list": [
+                                "Sviluppo di nuove applicazioni web per soddisfare le esigenze dei clienti e guidare il loro business verso l’industrializzazione.",
+                                "Creazione di applicazioni interne per migliorare l’efficienza dei processi aziendali.",
+                                "Realizzazione di applicazioni web lavorando direttamente come consulente esterno.",
+                                "Collaborazione con i team backend per integrare le API in modo efficiente."
+                            ],
+                            "tags": ["React", "Javascript", "Typescript", "VueJS", "Astro", "Web Components"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

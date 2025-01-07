@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "id": "profile",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Profile"},
+                "it": {"title": "Profilo"}
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "it": {"title": "Storia"}
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-regular fa-envelope",
+            "locales": {
+                "en": {"title": "Contact"},
+                "it": {"title": "Contatto"}
+            }
+        }
+    ]
+}

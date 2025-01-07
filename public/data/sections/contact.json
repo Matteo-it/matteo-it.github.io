@@ -1,0 +1,96 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "Get {{In Touch}}"
+            },
+            "it": {
+                "title_short": "Contatto",
+                "title_short_nav": "Contatto",
+                "title_long_prefix": "Non esitare a",
+                "title_long": "Mettersi in {{Contatto}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "it": {
+                    "contact_thank_you_title": "{{Grazie}} per il contatto!",
+                    "contact_thank_you_body": "Il tuo messaggio è stato ricevuto e ti contatterò presto. Apprezzo il tuo tempo e non vedo l'ora di connettermi con te!",
+                    "contact_thank_you_footer": "La risposta sarà inviata al tuo indirizzo email: {{$email}}",
+                    "title": "Inviami un {{messaggio}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "label": "+39 (349) 8451496",
+                    "link": {
+                        "href": "tel:+393498451496",
+                        "tooltipString": "call_me"
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "it": {"title": "Telefono"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "label": "matteo.marsala92@gmail.com",
+                    "link": {
+                        "href": "mailto:matteo.marsala92@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "it": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "label": "Matteo Marsala",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/matteo-marsala-3288b7149/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": { "title": "LinkedIn" },
+                        "it": { "title": "LinkedIn" }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-github",
+                    "label": "@Matteo-it",
+                    "link": {
+                        "href": "https://github.com/Matteo-it",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": { "title": "GitHub" },
+                        "it": { "title": "GitHub" }
+                    }
+                }
+            ]
+        }
+    ]
+}

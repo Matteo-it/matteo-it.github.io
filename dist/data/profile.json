@@ -1,0 +1,28 @@
+{
+    "name": "Matteo Marsala",
+    "profilePictureUrl": "images/content/pfp-{theme}.png",
+    "resumePdfUrl": "pdf/resume.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Matteo Marsala",
+            "localized_name_stylized": "<strong>Matteo {{Marsala}}</strong>",
+            "status_message_available_for_freelance": "Available for talking!",
+            "roles": [
+                "React Developer",
+                "Javascript and Typescript Developer"
+            ]
+        },
+        "it": {
+            "status_message_available_for_freelance": "Disponibile per parlare!",
+            "roles": [
+                "Sviluppatore React",
+                "Sviluppatore Javascript e Typescript"
+            ]
+        }
+    }
+}
