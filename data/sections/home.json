@@ -1,0 +1,180 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Cheers!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Greetings nerds...",
+                "title_long": "I'm Matteo {{Marsala!}}"
+            },
+            "it": {
+                "title_short": "Ciao!",
+                "title_short_nav": "Chi sono",
+                "title_long_prefix": "Salve nerd...",
+                "title_long": "Sono Matteo {{Marsala!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "pi pi-map-marker",
+                    "locales": {
+                        "en": {
+                            "label": "Turin - IT"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "matteo.marsala92@gmail.com",
+                    "link": {"href": "mailto:matteo.marsala92@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Matteo-it",
+                    "link": {"href": "https://github.com/Matteo-it", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A tiny bit}} about me..."},
+                "it": {"title": "{{Qualcosina}} su di me..."}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/article-text-image-home.png",
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Front-end Developer}} with a knack for turning ideas into sleek, responsive, and high-performing apps. I specialize in building with [[React]], with solid experience in [[Javascript/Typescript]].</p><p>I’ve worked on a lot of <em>Arduino Projects</em> like the Arduino Documentation and Cloud Home, as well as other useful applications for users and employees, handling UI/UX implementation, API integration, state management, and CI deployment.</p><p>I’m passionate about crafting user-friendly experiences that <strong>fit right in your pocket</strong>, and I can’t wait to help bring your next idea to life!</p>"
+                        },
+                        "it": {
+                            "text": "<p>Faccio il {{Front-end Developer}} e mi piace trasformare idee in app eleganti, reattive e ad alte prestazioni. Sono specializzato nello sviluppo con [[React]], con una solida esperienza in [[Javascript/Typescript]].</p><p>Ho lavorato su diversi <em>progetti Arduino</em> come la Documentazione Arduino e Cloud Home, oltre che su altre applicazioni utili per utenti e dipendenti, occupandomi di UI/UX, integrazione API, gestione dello stato e CI deployment.</p><p>Mi appassiona creare esperienze user-friendly che <strong>stanno comodamente in tasca</strong> e non vedo l’ora di aiutarti a realizzare la tua prossima idea!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {"title": "What {{I do}}"},
+                "it": {"title": "Cosa {{faccio}}"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-react",
+                    "locales": {
+                        "en": {
+                            "title": "{{React}} Development",
+                            "text": "I can build cross-platform apps using React, especially with TypeScript."
+                        },
+                        "it": {
+                            "title": "Sviluppo {{React}}",
+                            "text": "Posso creare app multipiattaforma usando React, soprattutto con TypeScript."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-code",
+                    "locales": {
+                        "en": {
+                            "title": "{{API}} Integration",
+                            "text": "I can integrate your app with RESTful APIs or GraphQL."
+                        },
+                        "it": {
+                            "title": "{{API}} Integrazione",
+                            "text": "Posso integrare la tua app con API RESTful o GraphQL."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-cogs",
+                    "locales": {
+                        "en": {
+                            "title": "{{State}} Management",
+                            "text": "I can implement state management solutions like Redux, TanStack, or Zustand."
+                        },
+                        "it": {
+                            "title": "{{Gestione}} Stato",
+                            "text": "Posso implementare soluzioni di gestione dello stato come Redux, TanStack o Zustand."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "{{Languages}} I Speak"},
+                "it": {"title": "{{Lingue}} che parlo"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/it.png",
+                    "locales": {
+                        "en": {
+                            "title": "Italian",
+                            "text": "Native speaker with a strong command of technical vocabulary.",
+                            "level": "Native"
+                        },
+                        "it": {
+                            "title": "Italiano",
+                            "text": "Madrelingua con una solida padronanza del vocabolario tecnico.",
+                            "level": "Madrelingua"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "images/flags/en-uk.png",
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "I've worked with English since the beginning of my career, collaborating in mixed teams of professionals from all over the world.",
+                            "level": "Professional"
+                        },
+                        "it": {
+                            "title": "Inglese",
+                            "text": "Lavoro con l'inglese dall'inizio della mia carriera, lavorando in team misti di professionisti da tutto il mondo.",
+                            "level": "Madrelingua"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

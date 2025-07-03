@@ -1,0 +1,189 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Tech Stack}}"
+            },
+            "it": {
+                "title_short": "Stack Tecnologico",
+                "title_short_nav": "Stack Tecnologico",
+                "title_long_prefix": "Esplora",
+                "title_long": "Il mio {{Stack Tecnologico}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {},
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/article-text-image-dreamify.png",
+                    "locales": {
+                        "en": {
+                            "text": "<p>As a Software Engineer with passion for IT and software development, I've dedicated my career to becoming a skilled and specialized developer, with a focus on {{front-end}}. My expertise lies in creating web applications that deliver a seamless user experience.</p><p>With a solid foundation in web technologies, I leverage library like [[React]] and languages like [[Typescript]] to build high-performance applications. [[Check out below]] a list of my tech stacks that I am familiar with and have worked with.</p>"
+                        },
+                        "it": {
+                            "text": "<p>Come Software Engineer con una passione per l’IT e lo sviluppo software, ho dedicato la mia carriera a diventare uno sviluppatore specializzato, con un focus sul {{front-end}}. La mia esperienza è nella creazione di applicazioni web che offrono un’esperienza utente fluida.</p><p>Con una solida base nelle tecnologie web, utilizzo librerie come [[React]] e linguaggi come [[Typescript]] per realizzare applicazioni ad alte prestazioni. [[Guarda qui sotto]] una lista degli stack tecnologici che conosco e con cui ho lavorato.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{Front-end}} Stack"},
+                "it": {"title": "Stack {{Front-end}}"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DBFB", "fillLight": "#357c8f" },
+                    "locales": { "en": { "title": "React Native" }, "it": { "title": "React Native" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-notdef",
+                    "faIconColors": { "fill": "#3178C6" },
+                    "locales": { "en": { "title": "TypeScript" }, "it": { "title": "TypeScript" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": { "fill": "#f7df1e", "fillLight": "#a68732" },
+                    "locales": { "en": { "title": "JavaScript" }, "it": { "title": "JavaScript" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": { "fill": "#E44D26" },
+                    "locales": { "en": { "title": "HTML5" }, "it": { "title": "HTML5" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": { "fill": "#264de4", "fillLight": "#2965f1" },
+                    "locales": { "en": { "title": "CSS3" }, "it": { "title": "CSS3" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-notdef",
+                    "faIconColors": { "fill": "#764ABC" },
+                    "locales": { "en": { "title": "Redux" }, "it": { "title": "Redux" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-brands fa-notdef",
+                    "faIconColors": { "fill": "#000000" },
+                    "locales": { "en": { "title": "NextJS" }, "it": { "title": "NextJS" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": { "fill": "#646CFF", "fillLight": "#FFD62E" },
+                    "locales": { "en": { "title": "Vite" }, "it": { "title": "Vite" } }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-npm",
+                    "faIconColors": { "fill": "#CB3837" },
+                    "locales": { "en": { "title": "NPM" }, "it": { "title": "NPM" } }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-p",
+                    "faIconColors": { "fill": "#F69220" },
+                    "locales": { "en": { "title": "PNPM" }, "it": { "title": "PNPM" } }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{Additional}} Skills"},
+                "it": {"title": "Competenze {{Aggiuntive}}"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": { "fill": "#F05032" },
+                    "locales": { "en": { "title": "Git" }, "it": { "title": "Git" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": { "fill": "#DD0031" },
+                    "locales": { "en": { "title": "Angular" }, "it": { "title": "Angular" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-sass",
+                    "faIconColors": { "fill": "#CC6699" },
+                    "locales": { "en": { "title": "SCSS" }, "it": { "title": "SCSS" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-mask",
+                    "faIconColors": { "fill": "#45BA4B" },
+                    "locales": { "en": { "title": "Playwright" }, "it": { "title": "Playwright" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": { "fill": "#42B883" },
+                    "locales": { "en": { "title": "Vue" }, "it": { "title": "Vue" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-notdef",
+                    "faIconColors": { "fill": "#4B32C3" },
+                    "locales": { "en": { "title": "ESLint" }, "it": { "title": "ESLint" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": { "fill": "#38BDF8" },
+                    "locales": { "en": { "title": "Tailwind" }, "it": { "title": "Tailwind" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": { "fill": "#F7B93E" },
+                    "locales": { "en": { "title": "Prettier" }, "it": { "title": "Prettier" } }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-notdef",
+                    "faIconColors": { "fill": "#000000" },
+                    "locales": { "en": { "title": "Vercel" }, "it": { "title": "Vercel" } }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-brands fa-algolia",
+                    "faIconColors": { "fill": "#5468FF" },
+                    "locales": { "en": { "title": "Algolia" }, "it": { "title": "Algolia" } }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-brands fa-figma",
+                    "faIconColors": { "fill": "#F24E1E" },
+                    "locales": { "en": { "title": "Figma" }, "it": { "title": "Figma" } }
+                }
+            ]
+        }
+    ]
+}
